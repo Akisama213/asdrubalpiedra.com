@@ -14,9 +14,9 @@ export default async function Home() {
   main().catch(er => console.error(er));
   
   return (
-    <main style={{overflowX:"hidden"}}>
-      <div style={{display:"flex", flexWrap:"wrap", width:"99.5vw"}}>
-        {album}
+    <main>
+      <div style={{display:"flex", flexWrap:"wrap"}}>
+        Contact{album}
       </div>
     </main>
   )
