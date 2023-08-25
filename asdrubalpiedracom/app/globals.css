@@ -10,16 +10,18 @@ body {
 .Jheader {
   position: sticky; 
   top: 0px; 
-  background:black; 
+  background: black; 
   height: max-content; 
   color: white; 
   display: flex; 
   align-items: center;
+  transition: all 0.5s ease;
 }
 .Ja {
-  padding-right: 1.5em;
-  padding-left: 1.5em;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
   display: inline-block;
+  user-select:none;
 }
 .Jicon {
   width: 1.6em;
@@ -41,4 +43,5 @@ body {
   width: "23vw";
   display: "inline-block";
   margin: "2vw";
+  user-select:none;
 }

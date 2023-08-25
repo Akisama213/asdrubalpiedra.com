@@ -6,7 +6,7 @@ import { ImageList } from '@mui/material';
 export default async function Home() {
   const list = readFileSync("./app/album.json", 'utf-8');
   const album = JSON.parse(list).map((pic : any) =>
-    <img style={{width:"100%", objectFit:"contain", height: "max-content", marginBottom:"10px"}} loading="lazy" src={pic.url}/>
+    <img style={{width:"100%", objectFit:"contain", height: "max-content", marginBottom:"10px"}} src={pic.url} key={pic.url} alt="art"/>
   );
   const main = async () => {
     const re = await fetchImageUrls('https://photos.app.goo.gl/BSsiEqy2akQaKNQF6');

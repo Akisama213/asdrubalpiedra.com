@@ -9,18 +9,17 @@ export const metadata: Metadata = {
   title: 'Asdrubal Piedra',
   description: "Asdrubal Piedra's Resume",
 }
-
-
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-    
+  let hbg = "black";
+  let hclr = "white";
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header className="Jheader">
+        <header className="Jheader" id="Jheader">
           <div className="Jside">
             <span>
               <a className="Ja" href="https://www.instagram.com/asdrubal_piedra/" target="_blank">
