@@ -1,0 +1,55 @@
+.Jheader {
+  position: sticky; 
+  top: 0px; 
+  height: max-content; 
+  display: flex;
+  align-items: center;
+  transition: all 1s ease;
+  z-index: 3;
+	background: black;
+	color: white;
+}
+.Jbackheader {
+  position: absolute; 
+  top: 0px; 
+	left: 0px;
+  height: 5em; 
+	width: 100%;
+  display: block;
+  align-items: center;
+  transition: all 1s ease;
+  z-index: 2;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.Ja {
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+  display: inline-block;
+  user-select:none;
+}
+.Jicon {
+	stroke-width: 100em;
+	stroke: green;
+  width: 1.8em;
+  height: 1.8em;
+  margin-bottom: -0.55em;
+  filter: invert(1);
+}
+.Jlink {
+	margin: 1em;
+	font-size: 1.1em;
+	transition: 0.5s all ease;
+	text-decoration: overline;
+	text-decoration-thickness: 0.1em;
+	text-decoration-color: transparent;
+}
+.Jtitle {
+  display: inline-block;
+  flex: 1;
+} 
+.Jside {
+  flex: 5;
+  display: inline-block;
+  padding: 1%;
+  user-select:none;
+}

@@ -6,42 +6,5 @@ body {
   color: black;
   background: white;
   font-size: 1.2vmax;
-}
-.Jheader {
-  position: sticky; 
-  top: 0px; 
-  background: black; 
-  height: max-content; 
-  color: white; 
-  display: flex; 
-  align-items: center;
-  transition: all 0.5s ease;
-}
-.Ja {
-  margin-right: 1.5em;
-  margin-left: 1.5em;
-  display: inline-block;
-  user-select:none;
-}
-.Jicon {
-  width: 1.6em;
-  height: 1.6em;
-  margin-bottom: -0.4em;
-  filter: invert(1);
-} 
-.Jtitle {
-  flex: 1;
-  width: 50vw;
-  display: inline-block;
-  margin-top: 1vh;
-  margin-bottom: 1vh;
-  text-align: center;
-  font-size: 2.5em;
-} 
-.Jside {
-  flex: 1;
-  width: "23vw";
-  display: "inline-block";
-  margin: "2vw";
-  user-select:none;
+  overflow-x: clip;
 }
